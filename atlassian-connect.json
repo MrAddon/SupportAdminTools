@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.supportadmintools",
    "name": "Support Admin Tools for JIRA Cloud",
-   "version": "2.2",
+   "version": "3.3",
    "description": "Plugin for JIRA Admins to allow search in each Admin page of JIRA",
    "vendor": {
       "name": "Raul Pelaez",
@@ -16,7 +16,7 @@
       "webSections": [
         {
             "key": "links",
-            "location": "system.admin.top.navigation.bar",
+            "location": "admin_plugins_menu",
 			"weight": 10,
             "name": {
                 "value": "Jirasupport [SUAJ!]"
@@ -25,7 +25,7 @@
     ],   
     "webItems": [
       {
-        "location": "links",
+        "location": "admin_plugins_menu/links",
         "weight": 200,
         "styleClasses": [
           "webitem",
