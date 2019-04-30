@@ -13,7 +13,7 @@
       "type": "none"
    },
      "apiMigrations": {
-        "gdpr": false
+        "gdpr": true
     },
    "modules": {
       "webSections": [
